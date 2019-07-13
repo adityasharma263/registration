@@ -23,7 +23,7 @@ def patner_api():
         return jsonify({'result': {'application': result.data}, 'message': "Success", 'error': False})
 
 
-@app.route('/api/v1/partner/<int:id>', methods=['PUT', 'DELETE'])
+@app.route('/api/v1/application/<int:id>', methods=['PUT', 'DELETE'])
 def partner_id(id):
     if request.method == 'PUT':
         put = Application.query.filter_by(id=id).update(request.json)
