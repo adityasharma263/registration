@@ -1,4 +1,4 @@
-#!/media/aditya/DATA/project/ts_partners/venv/bin/python3
+#!/home/azhar/project/registration/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

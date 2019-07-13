@@ -1,4 +1,4 @@
-#!/media/aditya/DATA/project/ts_partners/venv/bin/python
+#!/home/azhar/project/registration/venv/bin/python
 
 import sys
 import getopt

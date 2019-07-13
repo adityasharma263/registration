@@ -11,6 +11,7 @@ def home():
         return render_template('index.html')
     elif request.method == 'POST':
         post_data = request.form.to_dict()
+        print(post_data, "888888888888888888888")
         res = requests.post('http://127.0.0.1:5000/api/v1/application', json=post_data)
         print(res.json(), "response")
         response = res.json()
