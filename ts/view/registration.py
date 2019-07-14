@@ -18,6 +18,7 @@ def patner_api():
         return jsonify({'result': {'applications': result.data}, 'message': "Success", 'error': False})
     else:
         post = Application(**request.json)
+        print(request.json, "gfrs")
         post.save()
         result = ApplicationSchema().dump(post)
         return jsonify({'result': {'application': result.data}, 'message': "Success", 'error': False})

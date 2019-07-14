@@ -19,7 +19,7 @@ class Application(Base):
     date_of_birth = db.Column(db.DateTime, nullable=True)
     college_name = db.Column(db.String, nullable=True)
     referral = db.Column(db.String, nullable=True)
-    resume = db.Column(db.LargeBinary(), nullable=True)
+    resume = db.Column(db.String, nullable=True)
 
 
     def __init__(self, *args, **kwargs):
