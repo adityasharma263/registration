@@ -1,60 +1,612 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<html class=" js flexbox canvas canvastext webgl touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Page Title -->
+    <title>Legal | The Travel Square</title>
+    
+    <!-- Meta Tags -->
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Travel Beans">
+    <meta name="description" content="">
+    <meta name="distribution" content="global">
+    <meta name="country" content="india">
+    <meta name="copyright" content="The Travel Square">
+    <meta name="revisit-after" content="1 hour">
+    <meta name="designer" content="The Travel Square">
+    <meta name="language" content="english">
+    <meta name="robots" content="index, follow">
+    <meta name="rating" content="general">
+    <meta name="publisher" content="The Travel Square">
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta property="og:title" content="The Travel Square">
+    <meta property="og:description" content="The Travel Square is a Unique B2B Platform For Travel Agents to Get Best Quotes For Their Travel Booking Leads . Our Network is a Profesional B2B Connection of More Than 5000+ Travel Agents Around the Globe at More Than 250+ Destinations in the World . The Travel Square is Simple to Use , Efficient and Cost Savvy , Which Can Make More Margins in Travel Sales and Make Travel Agents Earn 150% More Profits.">
+    <meta property="og:image" content="">
+  
+    <meta name="twitter:card" content="The Travel Square is a Unique B2B Platform For Travel Agents to Get Best Quotes For Their Travel Booking Leads . Our Network is a Profesional B2B Connection of More Than 5000+ Travel Agents Around the Globe at More Than 250+ Destinations in the World . The Travel Square is Simple to Use , Efficient and Cost Savvy , Which Can Make More Margins in Travel Sales and Make Travel Agents Earn 150% More Profits.">
+  
+    <meta name="keywords" content="The Travel Square is a Unique B2B Platform For Travel Agents to Get Best Quotes For Their Travel Booking Leads . Our Network is a Profesional B2B Connection of More Than 5000+ Travel Agents Around the Globe at More Than 250+ Destinations in the World . The Travel Square is Simple to Use , Efficient and Cost Savvy , Which Can Make More Margins in Travel Sales and Make Travel Agents Earn 150% More Profits.">
+    <meta name="format-detection" content="7428558566">
+    
+	
+	<link rel="shortcut icon" href="" type="image/x-icon">
+    
+    <!-- Theme Styles -->
+    <link rel="stylesheet" href="./About Travel Beans_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./About Travel Beans_files/font-awesome.min.css">
+    <link href="./About Travel Beans_files/css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./About Travel Beans_files/animate.min.css">
+    
+    <!-- Main Style -->
+    <!--<link id="main-style" rel="stylesheet" href="css/style.css">-->
+    <script type="text/javascript">
+        var mainStyle = "style.css";
+        if (typeof localStorage != "undefined") {
+            var colorSkin = localStorage.getItem("colorSkin");
+            if (colorSkin != null) {
+                mainStyle = "style-" + colorSkin + ".css";
+            }
+        }
+        document.write('<link id="main-style" rel="stylesheet" href="css/' + mainStyle + '">');
+    </script><link id="main-style" rel="stylesheet" href="./About Travel Beans_files/style-light-yellow.css">
+    
+    <!-- Updated Styles -->
+    <link rel="stylesheet" href="./About Travel Beans_files/updates.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./About Travel Beans_files/custom.css">
+    
+    <!-- Responsive Styles -->
+    <link rel="stylesheet" href="./About Travel Beans_files/responsive.css">
+    
+    
 </head>
 <body>
-
-<h1  style="text-align:center;" >Enter Scores</h1>
-<div class="container" style="margin-top: 60px;">
-<a  href="/dashboard">View dashboard>></a>
-<hr>
-<div class="row" >
-         {% if response and  response.message == 'Success'%}
-     <div class="col-sm-12">
-            <div class="alert alert-success alert-dismissible fade show" role="alert">
-              <strong>Data Added Successfully!</strong>
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+    <div id="page-wrapper">
+        
+		
+		<header id="header" class="navbar-static-top">
+            <div class="topnav hidden-xs">
+                <div class="container">
+                    <ul class="quick-menu pull-left">
+                        <li><a href="http://www.travelsquare.in">The Travel Square</a></li>
+                    </ul>
+                    
+                </div>
             </div>
-          </div>
-        {% endif %}
+            
+            <div class="main-header">
+                
+                <a href="http://www.soaptheme.net/html/travelo/dashboard1.html#mobile-menu-01" data-toggle="collapse" class="mobile-menu-toggle">
+                    Mobile Menu Toggle
+                </a>
 
-	<div class = "col-sm-6">
-  <form action="/" method="POST">
-  <h2>ENTER PARTNERS DATA</h2>
-    <div class="form-group">
-      <label>:</label>
-      <input type="text" class="form-control" name="first_player_name" style="width:50%" placeholder="Player 1 name">
+                <div class="container">
+                    <h1 class="logo navbar-brand">
+                        <a href="http://www.thetravelSquare.com" title="Travel Beans">
+                            <img src="images/.png" alt="Travel Beans by Travel Beans">
+                        </a>
+                    </h1>
+                    
+                    <nav id="main-menu" role="navigation">
+                        <ul class="menu">
+                            <li class="menu-item-has-children">
+                                <a href="http://www.soaptheme.net/html/travelo/index.html">Home</a>
+                                <ul>
+                                </ul>
+                            </li>
+                           
+                           
+                            
+                            
+                        </ul>
+                    </nav>
+                </div>
+                
+                <nav id="mobile-menu-01" class="mobile-menu collapse">
+                    <ul id="mobile-primary-menu" class="menu">
+                        <li class="menu-item-has-children">
+                            <a href="http://www.sassytravellers.com/">Home</a><button class="dropdown-toggle collapsed" data-toggle="collapse" data-target="#mobile-menu-submenu-item-0"></button>
+                            
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="">Hotels</a><button class="dropdown-toggle collapsed" data-toggle="collapse" data-target="#mobile-menu-submenu-item-2"></button>
+                        </li>
+                       
+                        
+                            
+                        
+                        
+                    </ul>
+                    
+                    <ul class="mobile-topnav container">
+                        <li><a href="">MY ACCOUNT</a></li>
+                        <li class="ribbon language menu-color-skin">
+                            <a href="" data-toggle="collapse">ENGLISH</a>
+                            <ul class="menu mini" style="">
+                            </ul>
+                        </li>
+                        <li><a href="travelo-login" class="soap-popupbox">LOGIN</a></li>
+                        <li><a href="travelo-signup" class="soap-popupbox">SIGNUP</a></li>
+                        <li class="ribbon currency menu-color-skin">
+                            <a href="">USD</a>
+                            <ul class="menu mini" style="">
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                </nav>
+				
+				
+            </div>
+            <div id="travelo-signup" class="travelo-signup-box travelo-box">
+                <div class="login-social">
+                    <a href="http://www.soaptheme.net/html/travelo/dashboard1.html#" class="button login-facebook"><i class="soap-icon-facebook"></i>Login with Facebook</a>
+                    <a href="http://www.soaptheme.net/html/travelo/dashboard1.html#" class="button login-googleplus"><i class="soap-icon-googleplus"></i>Login with Google+</a>
+                </div>
+                <div class="seperator"><label>OR</label></div>
+                <div class="simple-signup">
+                    <div class="text-center signup-email-section">
+                        <a href="http://www.soaptheme.net/html/travelo/dashboard1.html#" class="signup-email"><i class="soap-icon-letter"></i>Sign up with Email</a>
+                    </div>
+                    <p class="description">By signing up, I agree to Travelo's Terms of Service, Privacy Policy, Guest Refund olicy, and Host Guarantee Terms.</p>
+                </div>
+                <div class="email-signup">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="input-text full-width" placeholder="first name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="input-text full-width" placeholder="last name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="input-text full-width" placeholder="email address">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="input-text full-width" placeholder="password">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="input-text full-width" placeholder="confirm password">
+                        </div>
+                        <div class="form-group">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Tell me about Travelo news
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <p class="description">By signing up, I agree to Travelo's Terms of Service, Privacy Policy, Guest Refund Policy, and Host Guarantee Terms.</p>
+                        </div>
+                        <button type="submit" class="full-width btn-medium">SIGNUP</button>
+                    </form>
+                </div>
+                <div class="seperator"></div>
+                <p>Already a Travelo member? <a href="http://www.soaptheme.net/html/travelo/dashboard1.html#travelo-login" class="goto-login soap-popupbox">Login</a></p>
+            </div>
+            <div id="travelo-login" class="travelo-login-box travelo-box">
+                <div class="login-social">
+                    <a href="http://www.soaptheme.net/html/travelo/dashboard1.html#" class="button login-facebook"><i class="soap-icon-facebook"></i>Login with Facebook</a>
+                    <a href="http://www.soaptheme.net/html/travelo/dashboard1.html#" class="button login-googleplus"><i class="soap-icon-googleplus"></i>Login with Google+</a>
+                </div>
+                <div class="seperator"><label>OR</label></div>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="input-text full-width" placeholder="email address">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="input-text full-width" placeholder="password">
+                    </div>
+                    <div class="form-group">
+                        <a href="http://www.soaptheme.net/html/travelo/dashboard1.html#" class="forgot-password pull-right">Forgot password?</a>
+                        <div class="checkbox checkbox-inline">
+                            <label>
+                                <input type="checkbox"> Remember me
+                            </label>
+                        </div>
+                    </div>
+                </form>
+                <div class="seperator"></div>
+                <p>Don't have an account? <a href="" class="goto-signup soap-popupbox">Sign up</a></p>
+            </div>
+        </header>
+
+        <div class="page-title-container">
+            <div class="container">
+                <div class="page-title pull-left">
+                    <h2 class="entry-title">Job Application | The Travel Square
+                </div>
+                <ul class="breadcrumbs pull-right">
+                    
+                    <li class="active">Internship & Permanent Jobs</li>
+                </ul>
+            </div>
+        </div>
+
+       <section id="content">
+            <div class="container">
+			
+			
+			
+                <div class="row">
+                    {% if response and  response.message == 'Success'%}
+                    <div class="col-sm-12">
+                           <div class="alert alert-success alert-dismissible fade show" role="alert">
+                             <strong>Data Added Successfully!</strong>
+                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                               <span aria-hidden="true">&times;</span>
+                             </button>
+                           </div>
+                         </div>
+                       {% endif %}
+
+                    <div id="main" class="col-sm-8 col-md-9">
+                        
+                        <div class="travelo-box booking-section">
+                            <form action="/" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate >
+                                <div class="person-information">
+								<center><img src="images/The-Travel-Square-Logo.png"></center><br><br>
+								
+                                    <h2>Personal Details</h2>
+									<p>Please Enter Your Personal Details Below. The Personal Data in Any Terms Will Not Be Misused or Publicised .<br><a href=""><span class="skin-color">
+									Personal Data Storage Policy | We are Data Protection Law Approved |</span></a></p><br>
+                                  
+                                    <div class="form-group row">
+                                        <div class="col-sm-6 col-md-5">
+                                            <label>First Name</label>
+                                            <input type="text" class="input-text full-width" name="first_name" value="" placeholder="" required>
+                                        </div>
+                                        <div class="col-sm-6 col-md-5">
+                                            <label>Last Name	</label>
+                                            <input type="text" class="input-text full-width" name="last_name" value="" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-xs-12 col-md-5 constant-column-3">
+                                            <div>
+                                                <label>Date of Birth</label>
+                                                <div class="selector">
+                                                    <select class="full-width">
+                                                        <option>Date</option>
+                                                    </select><span class="custom-select full-width">Date</span>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <label>Month</label>
+                                                <div class="selector">
+                                                    <select class="full-width">
+                                                        <option>02</option>
+                                                    </select><span class="custom-select full-width">Jan</span>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <label>Year</label>
+                                                <div class="selector">
+                                                    <select class="full-width">
+                                                        <option>01</option>
+                                                    </select><span class="custom-select full-width">1970</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-5">
+                                            <label>Gender</label>
+                                            <div class="selector">
+                                                <select class="full-width" name="gender">
+                                                    <option>Male</option>
+                                                    <option>Female</option>
+                                                    <option>Unspecified</option>
+                                                </select><span class="custom-select full-width"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="form-group row">
+                                        <div class="col-sm-6 col-md-5">
+                                            <label>Home Address</label>
+                                            <input type="text" class="input-text full-width" name="address" value="" placeholder="" required>
+                                        </div>
+                                        <div class="col-sm-6 col-md-5">
+                                            <label>Nearest Landmark</label>
+                                            <input type="text" class="input-text full-width" name="landmark" value="" placeholder="">
+                                        </div>
+                                    </div>
+									<div class="form-group row">
+                                        <div class="col-sm-6 col-md-5">
+                                            <label>E-mail Address</label>
+                                            <input type="text" class="input-text full-width" name="email"value="" placeholder="" required>
+                                        </div>
+                                        <div class="col-sm-6 col-md-5">
+                                            <label>Contact Number</label>
+                                            <input type="text" class="input-text full-width" name="phone" value="" placeholder="" required>
+                                        </div>
+                                    </div>
+									<div class="form-group row">
+                                        <div class="col-sm-6 col-md-5">
+                                            <label>Highest Qualification</label>
+                                            <div class="selector">
+                                                <select class="full-width"name="qualification">
+                                                    <option>10+</option>
+                                                    <option>12+</option>
+                                                    <option>Under Graduate</option>
+                                                </select><span class="custom-select full-width">Graduate</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-5">
+                                            <label>Work Experience</label>
+                                            <div class="selector">
+                                                <select class="full-width" name="experience">
+                                                    <option>Under 1 Year Experience</option>
+                                                    <option>1 Year Experience</option>
+                                                    <option>2 Year Experience</option>
+                                                    <option>3 Year Experience</option>
+                                                    <option>4 Year Experience</option>
+                                                    <option>5+ Year Experience</option>
+                                                </select><span class="custom-select full-width">Fresher</span>
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="form-group row">
+                                        <div class="col-sm-6 col-md-5">
+                                            <label>College/School Name</label>
+                                            <input type="text" class="input-text full-width" name="college_name" value="" placeholder="">
+                                        </div>
+                                        <div class="col-sm-6 col-md-5">
+                                            <label>Refferal Person</label>
+                                            <input type="text" class="input-text full-width" name="referral" value="" placeholder="">
+                                        </div>
+                                    </div>
+									
+                                        <!--<a href="" class="button btn-medium sky-blue1 uppercase">Submit Personal Details</a>-->
+                                </div>
+                                <hr>
+                                <div class="group-details">
+                                    <h2>Job & Internship Details</h2>
+									<p>Please Fill Up The Job & Internship Details Application and Select The Job You Are Applying For .</p>
+									<div class="form-group row">
+										
+                                        <div class="col-sm-6 col-md-5">
+                                            <label>Job Department</label>
+                                            <div class="selector">
+                                                <select class="full-width">
+                                                    <option>Data Management Dept.</option>
+                                                    <option>Marketing Dept.</option>
+                                                    <option>Server Management</option>
+                                                </select><span class="custom-select full-width">Technical Dept.</span>
+                                            </div>
+                                        </div>
+										<div class="col-sm-6 col-md-5">
+                                            <label>Job Post (Can Select Muliple For Post)</label>
+                                            <div class="selector">
+                                                <select class="full-width">
+                                                    <option>Buses</option>
+                                                    <option>Hotel Vendor</option>
+                                                    <option>Cabs</option>
+                                                </select><span class="custom-select full-width">Hotel Partner</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+									
+									
+                                </div>
+                                <hr>
+                                <div class="booking-type">
+                                    <h2>Document Upload</h2>
+									<p>Attach Your Resume and Upload</p>
+                                    
+                                    <div class="form-group row">
+                                        <div class="col-sm-6 col-md-5">
+                                            <label>Applicants Resume</label>
+                                            <input type="file" class="custom-file-input" name="resume" value="" placeholder="">
+                                        </div>
+                                        
+                                    </div>
+									
+									<!--<a href="" class="button btn-medium sky-blue1 uppercase">Upload Documents</a>-->
+                                </div>
+                                <hr>
+                                
+                                
+                                <hr>
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value =""> By Continuing , You Agree the Internship & Job Agreement <a href=""><span class="skin-color">Terms and Conditions</span></a>.
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-sm-6 col-md-5">
+                                        <button type="submit" class="full-width btn-large">SUBMIT FORM</button>
+                                    </div>
+									<label>Your Details Will Be Verified & Interview Will Be Scheduled Over Call</label>
+   
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                   
+                    <div class="sidebar col-sm-4 col-md-3">
+                        <div class="travelo-box contact-box">
+                            <center><h4>Need Some Help ?</h4>
+                            <p>Our HR Executives Are Always Ready Help You 24/7 .</p>
+                            <address class="contact-details">
+                                <span class="contact-phone">+91-9650333567</span><br>
+                                <br>
+                                <a class="contact-email" href="">b2b@thetravelsquare.in</a>
+                            </address></center>
+                        </div>
+						<div class="travelo-box book-with-us-box">
+                            <center><h4>Why Join Us ?</h4></center>
+                            <ul>
+                                <li>
+                                    <i class="soap-icon-hotel-1 circle"></i>
+                                    <h5 class="title"><a href="" class="skin-color">20+ Industrial Tie-Ups</a></h5>
+                                    <p>The Travel Square is Recognised Amongst Top International DMC Worldwide .</p>
+                                </li>
+                                <li>
+                                    <i class="soap-icon-savings circle"></i>
+                                    <h5 class="title"><a href="" class="skin-color">Recognised Trainnings</a></h5>
+                                    <p>The Travel Square Provides Recognised Trainnings From Certified Professionals.</p>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="travelo-box">
+                            <center><h4 class="box-title">Our Partners & Recognitions</h4></center><br>
+                            <div class="image-box style14">
+                                <article class="box">
+                                    <figure><a href="" title=""><img width="63" height="59" src="images/The-Travel-Square-Partners-With-The-Leela-Palaces-Hotels-and-Resorts.jpg" alt=""></a></figure>
+                                    <div class="details">
+                                        <h5 class="box-title"><a href="">The Leela</a></h5>
+                                    </div>
+                                </article>
+                                <article class="box">
+                                    <figure><a href="" title=""><img width="63" height="59" src="images/The-Travel-Square-Partners-With-OYO.png" alt=""></a></figure>
+                                    <div class="details">
+                                        <h5 class="box-title"><a href="">OYO Rooms</a></h5>
+                                    </div>
+                                </article>
+								<article class="box">
+                                    <figure><a href="" title=""><img width="63" height="59" src="images/The-Travel-Square-Partners-With-Club-Mahindra.png" alt=""></a></figure>
+                                    <div class="details">
+                                        <h5 class="box-title"><a href="">Club Mahindra</a></h5>
+                                    </div>
+                                </article>
+								                                <article class="box">
+                                    <figure><a href="" title=""><img width="63" height="59" src="images/The-Travel-Square-Partners-With-Country-Holiday-Inn-and-Suites-CHIS.png" alt=""></a></figure>
+                                    <div class="details">
+                                        <h5 class="box-title"><a href="">CHIS</a></h5>
+                                    </div>
+                                </article>
+                                <article class="box">
+                                    <figure><a href="" title=""><img width="63" height="59" src="images/The-Travel-Square-Trav-Clan.png" alt=""></a></figure>
+                                    <div class="details">
+                                        <h5 class="box-title"><a href="">Trav Clan</a></h5>
+                                    </div>
+                                </article>
+								<article class="box">
+                                    <figure><a href="" title=""><img width="63" height="59" src="images/The-Travel-Square-Partners-With-Go-Ibibo-Go-Stays.jpg" alt=""></a></figure>
+                                    <div class="details">
+                                        <h5 class="box-title"><a href="">Go Ibibo</a></h5>
+                                    </div>
+                                </article>
+								<article class="box">
+                                    <figure><a href="" title=""><img width="63" height="59" src="images/ministry-of-corporate-affairs-of-india-The-Travel-Square.jpg" alt=""></a></figure>
+                                    <div class="details">
+                                        <h5 class="box-title"><a href="">MCA</a></h5>
+                                    </div>
+                                </article>
+								                                <article class="box">
+                                    <figure><a href="" title=""><img width="63" height="59" src="images/start-up-india-the-travel-square.png" alt=""></a></figure>
+                                    <div class="details">
+                                        <h5 class="box-title"><a href="">Startup India</a></h5>
+                                    </div>
+                                </article>
+                                <article class="box">
+                                    <figure><a href="" title=""><img width="63" height="59" src="images/K-CIIS-kalam-center-for-innovation-and-incubation-of-start-up-the-travel-square.jpg" alt=""></a></figure>
+                                    <div class="details">
+                                        <h5 class="box-title"><a href="">Kalam Inclubation</a></h5>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+       <footer id="footer" class="style5">
+            <div class="footer-wrapper">
+                <div class="container">
+                    <div class="row">
+                       <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <h2>The Travel Square</h2>
+                            <ul class="discover triangle hover row">
+                                <li class="col-xs-6"><a href="http://www.thetravelsquare.in/about">About Company</a></li>
+                                <li class="col-xs-6"><a href="http://www.thetravelsquare.in/jobs.html">Jobs & Carreers</a></li>
+								<li class="col-xs-6"><a href="http://www.thetravelsquare.in/about">Corporate Offices</a></li>
+                                <li class="col-xs-6"><a href="http://www.thetravelsquare.in/legal.html">Legal Information</a></li>
+                                <li class="col-xs-6"><a href="http://www.thetravelsquare.in/press.html">Press Release</a></li>
+                                <li class="col-xs-6"><a href="http://www.thetravelsquare.in/legal.html">T & C</a></li>
+                                <li class="col-xs-6"><a href="http://www.thetravelsquare.in/customer-care.html">Customer Care</a></li>
+                                <li class="col-xs-6"><a href="http://www.thetravelsquare.in/legal.html">Privacy Policies</a></li>
+                                <li class="col-xs-6"><a href="http://www.thetravelsquare.in/partner-Care.html">Partner Help</a></li>
+                                <li class="col-xs-6"><a href="http://www.thetravelsquare.in/faq.html">FAQ's</a></li>
+                                <li class="col-xs-6"><a href="http://www.thetravelsquare.in/site-map.html">Site Map</a></li>
+                                <li class="col-xs-6"><a href="http://www.thetravelsquare.in/contact-Us.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <h2>Our Products</h2>
+                            <ul class="discover triangle hover row">
+                                <li class="col-xs-"><a href="http://www.thetravelsquare.in/pro">Travel Square Business</a></li>
+                                <li class="col-xs-"><a href="http://www.signatureclubmembership.com/">Signature Club</a></li>
+                                <li class="col-xs-"><a href="http://www.cruisader.com/">Cruisader</a></li>
+                                <li class="col-xs-"><a href="http://www.cruisingindia.in/">Cruising India</a></li>
+                                <li class="col-xs-"><a href="http://www.happenings.ind.in/">Happenings</a></li>
+                                <li class="col-xs-"><a href="http://www.shoppist.in/">Shoppist</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <img src="images/The-Travel-Square-Logo.png">
+                            <br>
+                            
+                            <br>
+                            
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <h2>About Us</h2>
+                            <p>The Travel Square is a Network of 10000+ Travel Suppliers , DMC & Hotel Chains Inspiring the World to Travel In Style With Luxury at Affordabe Pricing . </p>
+                            <br>
+                            <ul class="social-icons clearfix">
+                                <li class="twitter"><a title="Join Us on Twitter" href="https://twitter.com/travelsquare_" data-toggle="tooltip"  Target="_blank" data-original-title="twitter"><i class="soap-icon-twitter"></i></a></li>
+                                <li class="facebook"><a title="Join Us on Facebook" href="https://www.facebook.com/thetravelsquare/" Target="_blank" data-toggle="tooltip" data-original-title="facebook"><i class="soap-icon-facebook"></i></a></li>
+                                <li class="linkedin"><a title="Join Us on Linked In" href="https://www.linkedin.com/company/thetravelsquare" Target="_blank" data-toggle="tooltip" data-original-title="linkedin"><i class="soap-icon-linkedin"></i></a></li>
+                                <li class="vimeo"><a title="Join Us on Instagram" href="https://www.instagram.com/The_Travel_Square/" data-toggle="tooltip" Target="_blank" data-original-title="vimeo"><i class="soap-icon-instagram"></i></a></li>
+                                <li class="dribble"><a title="Join Us on Youtube" href="https://www.youtube.com/channel/UChlFqPqGQXw06M8ZUn4NsrQ" Target="_blank" data-toggle="tooltip" data-original-title="dribble"><i class="soap-icon-youtube"></i></a></li>
+ 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom gray-area">
+                <div class="container">
+                    
+                    <div class="pull-right">
+                        <a id="back-to-top" href="" class="animated bounce" data-animation-type="bounce" style="animation-duration: 1s; visibility: visible;"><i class="soap-icon-longarrow-up circle"></i></a>
+                    </div>
+                    <div class="copyright pull-right">
+                        <p>© 2019 The Travel Square</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+	   
     </div>
-    <div class="form-group">
-      <label>Player 2:</label>
-      <input type="text" class="form-control" name="second_player_name" style="width:50%" placeholder="Player 2 name">
-    </div>
-     <div class="form-group">
-      <label>Score:</label>
-      <input type="number" class="form-control" name="score" style="width:50%">
-    </div>
-	    <button type="submit" value = "submit" class="btn btn-primary">Submit</button>
-  </form>
-		</div>
-    </div>
-</div>
-<script>
-function alert_function() {
-  alert("player and score added successfully !");
-}
-</script>
-</body>
-</html>
+    
+    
 
 
+    <!-- Javascript -->
+    <script type="text/javascript" src="./About Travel Beans_files/jquery-1.11.1.min.js.download"></script>
+    <script type="text/javascript" src="./About Travel Beans_files/jquery.noconflict.js.download"></script>
+    <script type="text/javascript" src="./About Travel Beans_files/modernizr.2.7.1.min.js.download"></script>
+    <script type="text/javascript" src="./About Travel Beans_files/jquery-migrate-1.2.1.min.js.download"></script>
+    <script type="text/javascript" src="./About Travel Beans_files/jquery.placeholder.js.download"></script>
+    <script type="text/javascript" src="./About Travel Beans_files/jquery-ui.1.10.4.min.js.download"></script>
+    
+    <!-- Twitter Bootstrap -->
+    <script type="text/javascript" src="./About Travel Beans_files/bootstrap.js.download"></script>
+    
+    <!-- parallax -->
+    <script type="text/javascript" src="./About Travel Beans_files/jquery.stellar.min.js.download"></script>
+    
+    <!-- waypoint -->
+    <script type="text/javascript" src="./About Travel Beans_files/waypoints.min.js.download"></script>
 
+    <!-- load page Javascript -->
+    <script type="text/javascript" src="./About Travel Beans_files/theme-scripts.js.download"></script>
+    <script type="text/javascript" src="./About Travel Beans_files/scripts.js.download"></script>
+</body></html>
