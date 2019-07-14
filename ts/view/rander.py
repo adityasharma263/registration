@@ -24,19 +24,10 @@ def home():
 def page_not_found():
     return render_template("404.html"), 400
 
-#
-# @app.route('/dashboard', methods=['GET'])
-# def dashboard():
-#     rank = 0
-#     score = 0
-#     team_url = 'http://127.0.0.1:5000/api/v1/partner'
-#     teams = requests.get(url=team_url).json()['result']['partners']
-#     for team in teams:
-#         if score == team['score']:
-#             rank = rank
-#         else:
-#             rank = rank + 1
-#         team['rank'] = rank
-#         score = team['score']
-#     return render_template('dashboard.html', teams=teams)
-#
+
+@app.route('/dashboard', methods=['GET'])
+def dashboard():
+    team_url = 'http://127.0.0.1:5000/api/v1/application'
+    data = requests.get(url=team_url).json()['result']['applications']
+    return render_template('dashboard.html', data=data)
+
