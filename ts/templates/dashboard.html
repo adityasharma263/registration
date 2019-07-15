@@ -231,57 +231,61 @@
             </div>
     
    
-
-<div class="container-contact100 container-fluid" style="text-align:center;">
-
-     <table class="table table-sm">
-  <thead>
-    <tr>
-      <th scope="col" style="text-align:center;" >First Name</th>
-      <th scope="col" style="text-align:center;" >Last Name</th>
-      <th scope="col" style="text-align:center;">Date Of birth</th>
-      <th scope="col" style="text-align:center;">Email</th>
-      <th scope="col" style="text-align:center;">Number</th>
-      <th scope="col" style="text-align:center;">Qualification</th>
-      <th scope="col" style="text-align:center;">College</th>
-      <th scope="col" style="text-align:center;">Experience</th>
-      <th scope="col" style="text-align:center;">Department</th>
-      <th scope="col" style="text-align:center;">Job Post</th>
-      <th scope="col" style="text-align:center;">Gender</th>
-      <th scope="col" style="text-align:center;">Referral</th>
-      <th scope="col" style="text-align:center;">Address</th>
-      <th scope="col" style="text-align:center;">Landmark</th>
-      <th scope="col" style="text-align:center;">Resume</th>
-
-
-
-
+   <div class="container-contact100 container-fluid" style="text-align:center;">
+         
+         <table class="table table-sm" >
+              <thead>
+                  <tr>
+                     <th scope="col" style="text-align:center;" >First Name</th>
+                     <th scope="col" style="text-align:center;" >Last Name</th>
+                     <th scope="col" style="text-align:center;">Date Of birth</th>
+                     <th scope="col" style="text-align:center;">Email</th>
+                     <th scope="col" style="text-align:center;">Number</th>
+                     <th scope="col" style="text-align:center;">Qualification</th>
+                     <th scope="col" style="text-align:center;">College</th>
+                     <th scope="col" style="text-align:center;">Experience</th>
+                     <th scope="col" style="text-align:center;">Department</th>
+                     <th scope="col" style="text-align:center;">Job Post</th>
+                     <th scope="col" style="text-align:center;">Gender</th>
+                     <th scope="col" style="text-align:center;">Referral</th>
+                     <th scope="col" style="text-align:center;">Address</th>
+                     <th scope="col" style="text-align:center;">Landmark</th>
+                     <th scope="col" style="text-align:center;">Resume</th>
+                  </tr>
+               </thead>
+              
 
 
-    </tr>
-  </thead>
-    <tbody>
-    	{% for team in data %}
-      <tr>
-        <td>{{team.first_name}}</td>
-        <td>{{team.last_name}}</td>
-        <td>{{team.date_of_birth}}</td>
-        <td>{{team.email}}</td>
-        <td>{{team.phone}}</td>
-        <td>{{team.qualification}}</td>
-        <td>{{team.college_name}}</td>
-        <td>{{team.experience}}</td>
-        <td>{{team.department}}</td>
-        <td>{{team.job_post}}</td>
-        <td>{{team.gender}}</td>
-        <td>{{team.referral}}</td>
-        <td>{{team.address}}</td>
-        <td>{{team.landmark}}</td>
-        <td>{{team.resume}}</td>
-       </tr>
-      {% endfor %}
-    </tbody>
-</table>
+                <tbody>
+                	{% for team in data %}
+                   <tr>
+                      <td>{{team.first_name}}</td>
+                      <td>{{team.last_name}}</td>
+                      <td>{{team.date_of_birth}}</td>
+                      <td>{{team.email}}</td>
+                      <td>{{team.phone}}</td>
+                      <td>{{team.qualification}}</td>
+                      <td>{{team.college_name}}</td>
+                      <td>{{team.experience}}</td>
+                      <td>{{team.department}}</td>
+                      <td>{{team.post}}</td>
+                      <td>{{team.gender}}</td>
+                      <td>{{team.referral}}</td>
+                      <td>{{team.address}}</td>
+                      <td>{{team.landmark}}</td>
+                      <td>{{team.resume}}</td>
+                   </tr>
+                   {% endfor %}
+                 </tbody>
+
+
+          </table>
+ 
+       </div>  
+    </div>
+
+
+
 <footer id="footer" class="style5">
 <div class="footer-wrapper">
     <div class="container">
@@ -353,7 +357,7 @@
 
 
 
-</div>
+
 
 
     <!-- Javascript -->
@@ -376,4 +380,5 @@
     <!-- load page Javascript -->
     <script type="text/javascript" src="./About Travel Beans_files/theme-scripts.js.download"></script>
     <script type="text/javascript" src="./About Travel Beans_files/scripts.js.download"></script>
-</body></html>
+</body>
+</html>
