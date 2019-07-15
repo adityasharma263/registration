@@ -31,3 +31,7 @@ def dashboard():
     data = requests.get(url=team_url).json()['result']['applications']
     return render_template('dashboard.html', data=data)
 
+
+@app.route('/jobs', methods=['GET'])
+def jobs():
+    return render_template('jobs.html')
