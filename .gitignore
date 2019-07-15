@@ -1,6 +1,5 @@
 # Virtual environment folder #
 ######################
-venv/
 venv2/
 py3env/
 /py3env/

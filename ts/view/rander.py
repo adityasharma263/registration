@@ -11,7 +11,9 @@ def home():
     if request.method == 'GET':
         return render_template('index.html')
     elif request.method == 'POST':
-        request.files["resume"].read()
+        file = open('resume.pdf', 'wb')
+        file.write(request.files["resume"].read())
+        file.close()
         post_data = request.form.to_dict()
         headers = {'content-type': 'application/json'}
         res = requests.post('http://127.0.0.1:5000/api/v1/application', json=post_data, headers=headers)
