@@ -4,7 +4,7 @@
     <title>Legal | The Travel Square</title>
     
     <!-- Meta Tags -->
-     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Travel Beans">
     <meta name="description" content="">
@@ -94,10 +94,7 @@
                                 <ul>
                                 </ul>
                             </li>
-                           
-                           
-                            
-                            
+
                         </ul>
                     </nav>
                 </div>
@@ -224,9 +221,7 @@
 
        <section id="content">
             <div class="container">
-			
-			
-			
+
                 <div class="row">
                     {% if response and  response.message == 'Success'%}
                     <div class="col-sm-12">
@@ -242,11 +237,7 @@
                     <div id="main" class="col-sm-8 col-md-9">
                         
                         <div class="travelo-box booking-section">
-<<<<<<< HEAD
-                            <form action="/" method="POST" class="needs-validation" validate >
-=======
                             <form action="/" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate >
->>>>>>> 5e23f671fcf5d1ba8534dddcac31a00dae5b9b03
                                 <div class="person-information">
 								<center><img src="images/The-Travel-Square-Logo.png"></center><br><br>
 								
@@ -278,10 +269,11 @@
                                             <label>Gender</label>
                                             <div class="selector">
                                                 <select class="full-width" name="gender">
+                                                    <option>Select</option> 
                                                     <option>Male</option>
                                                     <option>Female</option>
                                                     <option>Unspecified</option>
-                                                </select><span class="custom-select full-width">Male</span>
+                                                </select><span class="custom-select full-width">Select</span>
                                             </div>
                                         </div>
                                     </div>
@@ -310,23 +302,26 @@
                                             <label>Highest Qualification</label>
                                             <div class="selector">
                                                 <select class="full-width"name="qualification">
+                                                    <option>Select</option> 
                                                     <option>10+</option>
                                                     <option>12+</option>
                                                     <option>Under Graduate</option>
-                                                </select><span class="custom-select full-width">Under Graduate</span>
+                                                </select><span class="custom-select full-width">Select</span>
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-md-5">
                                             <label>Work Experience</label>
                                             <div class="selector">
                                                 <select class="full-width" name="experience">
+                                                    <option>Select</option>                                                        
+                                                    <option>Fresher</option>
                                                     <option>Under 1 Year Experience</option>
                                                     <option>1 Year Experience</option>
                                                     <option>2 Year Experience</option>
                                                     <option>3 Year Experience</option>
                                                     <option>4 Year Experience</option>
                                                     <option>5+ Year Experience</option>
-                                                </select><span class="custom-select full-width">Fresher</span>
+                                                </select><span class="custom-select full-width">Select</span>
                                             </div>
                                         </div>
                                     </div>
@@ -353,20 +348,30 @@
                                             <label>Job Department</label>
                                             <div class="selector">
                                                 <select class="full-width">
+                                                    <option>Select</option>
                                                     <option>Data Management Dept.</option>
                                                     <option>Marketing Dept.</option>
                                                     <option>Server Management</option>
-                                                </select><span class="custom-select full-width">Technical Dept.</span>
+                                                    <option>Technical Dept.</option>
+                                                    <option>Sales Dept.</option>
+                                                    <option>Business Deveplopment Dept.</option>
+                                            
+                                                </select><span class="custom-select full-width">Select</span>
                                             </div>
                                         </div>
 										<div class="col-sm-6 col-md-5">
                                             <label>Job Post (Can Select Muliple For Post)</label>
                                             <div class="selector">
                                                 <select class="full-width">
-                                                    <option>Buses</option>
-                                                    <option>Hotel Vendor</option>
-                                                    <option>Cabs</option>
-                                                </select><span class="custom-select full-width">Hotel Partner</span>
+                                                    <option>Select</option>
+                                                    <option>Frontend Devloper-Employee</option>
+                                                    <option>Reservation & PR Manager-Employee</option>
+                                                    <option>BPO Sales-Employee</option>
+                                                    <option>Business Developer-Intern</option>
+                                                    <option>Marketing Manager-Intern</option>
+                                                    <option>Frontend Developer-Intern</option>
+                                                    <option>Android Developer0-Intern</option>
+                                                </select><span class="custom-select full-width">Select</span>
                                             </div>
                                         </div>
                                         
